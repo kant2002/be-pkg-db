@@ -38,11 +38,11 @@ const recursiveReadMock = jest.fn()
 jest.mock('mongoose', () => mongooseMock)
 jest.mock('recursive-readdir', () => recursiveReadMock)
 
-import Logger from '@diia-inhouse/diia-logger'
-import { EnvService } from '@diia-inhouse/env'
-import { DatabaseError } from '@diia-inhouse/errors'
-import { mockInstance } from '@diia-inhouse/test'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { DatabaseError } from '@kant2002-diia-inhouse/errors'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { AppDb, AppDbConfig, DatabaseService, DbType } from '../../../src'
 import { config } from '../../mocks/services/database'

@@ -1,4 +1,4 @@
-import { UnprocessableEntityError } from '@diia-inhouse/errors'
+import { UnprocessableEntityError } from '@kant2002-diia-inhouse/errors'
 
 import { MongoHelper } from '../../src'
 import { generateIdentifier } from '../mocks/randomData'

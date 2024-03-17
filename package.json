@@ -1,5 +1,5 @@
 {
-    "name": "@diia-inhouse/db",
+    "name": "@kant2002-diia-inhouse/db",
     "version": "3.1.1",
     "description": "Package with database connection",
     "main": "dist/index.js",
@@ -29,9 +29,9 @@
         "lint:lockfile": "lockfile-lint --path package-lock.json --allowed-hosts registry.npmjs.org --validate-https"
     },
     "dependencies": {
-        "@diia-inhouse/crypto": "^1.7.0",
-        "@diia-inhouse/utils": "^2.36.0",
-        "@diia-inhouse/validators": "^1.13.1",
+        "@kant2002-diia-inhouse/crypto": "^1.7.0",
+        "@kant2002-diia-inhouse/utils": "^2.36.0",
+        "@kant2002-diia-inhouse/validators": "^1.13.1",
         "@types/migrate-mongo": "10.0.4",
         "bson": "6.2.0",
         "lodash": "4.17.21",
@@ -40,18 +40,18 @@
         "recursive-readdir": "2.2.3"
     },
     "peerDependencies": {
-        "@diia-inhouse/env": ">=1.2.0",
-        "@diia-inhouse/errors": ">=1.3.0",
-        "@diia-inhouse/types": ">=5.0.1"
+        "@kant2002-diia-inhouse/env": ">=1.2.0",
+        "@kant2002-diia-inhouse/errors": ">=1.3.0",
+        "@kant2002-diia-inhouse/types": ">=5.0.1"
     },
     "devDependencies": {
-        "@diia-inhouse/configs": "^1.27.1",
-        "@diia-inhouse/diia-logger": "^2.10.0",
-        "@diia-inhouse/env": "^1.4.0",
-        "@diia-inhouse/errors": "^1.6.1",
-        "@diia-inhouse/eslint-config": "^3.5.0",
-        "@diia-inhouse/test": "^5.1.1",
-        "@diia-inhouse/types": "^5.0.1",
+        "@kant2002-diia-inhouse/configs": "^1.27.1",
+        "@kant2002-diia-inhouse/diia-logger": "^2.10.0",
+        "@kant2002-diia-inhouse/env": "^1.4.0",
+        "@kant2002-diia-inhouse/errors": "^1.6.1",
+        "@kant2002-diia-inhouse/eslint-config": "^3.5.0",
+        "@kant2002-diia-inhouse/test": "^5.1.1",
+        "@kant2002-diia-inhouse/types": "^5.0.1",
         "@types/lodash": "4.14.201",
         "@types/node": "20.9.0",
         "@types/recursive-readdir": "2.2.4",
@@ -59,19 +59,19 @@
         "protobufjs": "7.2.5"
     },
     "jest": {
-        "preset": "@diia-inhouse/configs/dist/jest"
+        "preset": "@kant2002-diia-inhouse/configs/dist/jest"
     },
     "release": {
-        "extends": "@diia-inhouse/configs/dist/semantic-release/package",
+        "extends": "@kant2002-diia-inhouse/configs/dist/semantic-release/package",
         "branches": [
             "main"
         ]
     },
     "commitlint": {
-        "extends": "@diia-inhouse/configs/dist/commitlint"
+        "extends": "@kant2002-diia-inhouse/configs/dist/commitlint"
     },
     "eslintConfig": {
-        "extends": "@diia-inhouse/eslint-config",
+        "extends": "@kant2002-diia-inhouse/eslint-config",
         "overrides": [
             {
                 "files": [
@@ -86,7 +86,7 @@
             }
         ]
     },
-    "prettier": "@diia-inhouse/eslint-config/prettier",
+    "prettier": "@kant2002-diia-inhouse/eslint-config/prettier",
     "madge": {
         "tsConfig": "./tsconfig.json"
     }

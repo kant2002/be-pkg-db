@@ -1,6 +1,6 @@
 import { Model, Schema, model, models } from 'mongoose'
 
-import { DurationS } from '@diia-inhouse/types'
+import { DurationS } from '@kant2002-diia-inhouse/types'
 
 import { EncryptedStorage } from '../interfaces/models/encryptedStorage'
 

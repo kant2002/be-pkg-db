@@ -43,25 +43,25 @@ cd ./pkg-db
 
 The installation of dependencies consists of the following 2 steps:
 
-#### **1. Manually clone, build and link dependencies from `@diia-inhouse` scope**
+#### **1. Manually clone, build and link dependencies from `@kant2002-diia-inhouse` scope**
 
-Each Diia service depends on dependencies from `@diia-inhouse/<package>` scope which are distributed across different repositories, are built separately, and aren't published into public npm registry.
+Each Diia service depends on dependencies from `@kant2002-diia-inhouse/<package>` scope which are distributed across different repositories, are built separately, and aren't published into public npm registry.
 
 The full list of such dependencies can be found in the target service `package.json` file in `dependencies` and `devDependencies` sections respectively.
 
-Detailed instructions on how to link dependencies from `@diia-inhouse/<package>` scope are described in `LINKDEPS.md` which can be found here
+Detailed instructions on how to link dependencies from `@kant2002-diia-inhouse/<package>` scope are described in `LINKDEPS.md` which can be found here
 https://github.com/diia-open-source/diia-setup-howto/tree/main/backend
 
-#### **2. Install public npm dependencies and use those linked from `@diia-inhouse` scope**
+#### **2. Install public npm dependencies and use those linked from `@kant2002-diia-inhouse` scope**
 
 In order to install and use the linked dependencies for `pkg-db` the following command can be used:
 
 ```
 $ cd ./pkg-db
-$ npm link @diia-inhouse/db @diia-inhouse/redis ... @diia-inhouse/<package-name>
+$ npm link @kant2002-diia-inhouse/db @kant2002-diia-inhouse/redis ... @kant2002-diia-inhouse/<package-name>
 ```
 
-In case all dependencies from `@diia-inhouse` scope are linked, and can be resolved, you will then have a complete list of dependencies installed for the service code base.
+In case all dependencies from `@kant2002-diia-inhouse` scope are linked, and can be resolved, you will then have a complete list of dependencies installed for the service code base.
 
 ---
 

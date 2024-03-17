@@ -5,9 +5,9 @@ import { cloneDeep } from 'lodash'
 import mongoose, { ClientSession } from 'mongoose'
 import recursiveRead from 'recursive-readdir'
 
-import { EnvService } from '@diia-inhouse/env'
-import { DatabaseError } from '@diia-inhouse/errors'
-import { HealthCheckResult, HttpStatusCode, Logger, OnHealthCheck, OnInit } from '@diia-inhouse/types'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { DatabaseError } from '@kant2002-diia-inhouse/errors'
+import { HealthCheckResult, HttpStatusCode, Logger, OnHealthCheck, OnInit } from '@kant2002-diia-inhouse/types'
 
 import { AppDb, AppDbConfig, DbConnectionStatus, DbStatusByType, DbType, MongoDbStatus } from '../interfaces'
 

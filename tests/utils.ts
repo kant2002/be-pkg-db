@@ -1,7 +1,7 @@
 import { config } from 'dotenv-flow'
 
-import { AuthConfig } from '@diia-inhouse/crypto'
-import { EnvService } from '@diia-inhouse/env'
+import { AuthConfig } from '@kant2002-diia-inhouse/crypto'
+import { EnvService } from '@kant2002-diia-inhouse/env'
 
 import { AppDbConfig, DbType, ReplicaSetNodeConfig } from '../src/interfaces'
 

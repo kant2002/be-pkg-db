@@ -1,4 +1,4 @@
-import { DatabaseError, UnprocessableEntityError } from '@diia-inhouse/errors'
+import { DatabaseError, UnprocessableEntityError } from '@kant2002-diia-inhouse/errors'
 
 import { MigrateMongoConfig, MongoDBErrorCode } from './interfaces'
 

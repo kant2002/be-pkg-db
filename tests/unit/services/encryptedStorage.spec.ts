@@ -9,16 +9,16 @@ const utilsMock = {
     encodeObjectToBase64: jest.fn(),
 }
 
-jest.mock('@diia-inhouse/utils', () => ({ utils: utilsMock }))
+jest.mock('@kant2002-diia-inhouse/utils', () => ({ utils: utilsMock }))
 jest.mock('../../../src/models/encryptedStorage', () => encryptedStorageModelMock)
 
 import { ObjectId } from 'bson'
 
-import { AuthService } from '@diia-inhouse/crypto'
-import Logger from '@diia-inhouse/diia-logger'
-import { EnvService } from '@diia-inhouse/env'
-import { NotFoundError } from '@diia-inhouse/errors'
-import { mockInstance } from '@diia-inhouse/test'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import { EncryptedStorageService } from '../../../src/services'
 import { generateIdentifier } from '../../mocks/randomData'

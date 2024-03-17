@@ -1,9 +1,9 @@
 import { ObjectId } from 'bson'
 
-import { AuthService } from '@diia-inhouse/crypto'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EnvService } from '@diia-inhouse/env'
-import { DurationMs } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { DurationMs } from '@kant2002-diia-inhouse/types'
 
 import { EncryptedStorage } from '../../src/interfaces/models/encryptedStorage'
 import encryptedStorageModel from '../../src/models/encryptedStorage'

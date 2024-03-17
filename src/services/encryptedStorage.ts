@@ -1,10 +1,10 @@
 import { ObjectId } from 'bson'
 
-import { AuthService } from '@diia-inhouse/crypto'
-import { EnvService } from '@diia-inhouse/env'
-import { NotFoundError } from '@diia-inhouse/errors'
-import { Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { NotFoundError } from '@kant2002-diia-inhouse/errors'
+import { Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import { EncryptedStorage, EncryptedStorageModel } from '../interfaces/models/encryptedStorage'
 import encryptedStorageModel from '../models/encryptedStorage'

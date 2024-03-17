@@ -1,4 +1,4 @@
-import { AuthConfig } from '@diia-inhouse/crypto'
+import { AuthConfig } from '@kant2002-diia-inhouse/crypto'
 
 import { AppDbConfig, DbType } from '../../src/interfaces'
 
